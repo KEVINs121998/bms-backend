@@ -2,9 +2,7 @@
 const mongoose = require("mongoose");
 
 // mongodb provided connection url
-const connectionString = `mongodb+srv://kevinshah12jan:${encodeURIComponent(
-  "kevin"
-)}@cluster0.7vomsbw.mongodb.net/?retryWrites=true&w=majority`;
+const connectionString = `mongodb+srv://kevinshah12jan:<password>@cluster0.7vomsbw.mongodb.net/?retryWrites=true&w=majority`;
 
 // custom function made to connect the mongodb database and passing up a callback function
 const connectDb = (server) => {
